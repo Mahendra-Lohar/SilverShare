@@ -1,0 +1,74 @@
+/*  import google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700");
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background: #dfe9f5;
+}
+.container{
+  display: flex;
+}
+nav{
+  position: relative;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  left: 0;
+  background: #2c7fe4;
+  width: 280px;
+  overflow: hidden;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.logo{
+  text-align: center;
+  display: flex;
+  margin: 10px 0 0 35px;
+}
+
+.logo span{
+  font-weight: bold;
+  padding-left: 15px;
+  font-size: 18px;
+  margin-bottom: 10%;
+}
+a{
+  position: relative;
+  color: #fff;
+  font-size: 14px;
+  display: table;
+  width: 280px;
+  padding: 10px;
+}
+nav .fas{
+  position: relative;
+  width: 70px;
+  height: 40px;
+  top: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+.nav-item{
+  position: relative;
+  top: 5px;
+  margin-left: 10px;
+}
+a:hover{
+  background: #eee;
+}
+h3 {
+  font-size: 24px;
+  color: #fff;
+  margin: 10px 0;
+  font-family: 'Sriracha', cursive;
+  font-weight: bold;
+  padding-left: 60px;
+  font-size: 25px;
+  padding-top: 30px;
+}
